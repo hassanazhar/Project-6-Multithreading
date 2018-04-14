@@ -1,10 +1,7 @@
 // insert header here
 package assignment6;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Theater {
 	/*
@@ -197,6 +194,16 @@ public class Theater {
    */
 	public Seat bestAvailableSeat() {
 		//TODO: Implement this method
+		Iterator<Map.Entry<Integer, Seat>> iterator2 = theatremap.entrySet().iterator();
+
+		while(iterator2.hasNext())
+		{
+			Map.Entry<Integer, Seat> next = iterator2.next();
+			if(!next.getValue().taken){
+				next.getValue().taken=true;
+				return next.getValue();
+			}
+		}
 		return null;
 	}
 

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1de57cf6-ccf0-44fe-a3e1-1dd13b85d3d3" name="Default" comment="" />
+    <list default="true" id="1de57cf6-ccf0-44fe-a3e1-1dd13b85d3d3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/assignment6/Theater.java" afterPath="$PROJECT_DIR$/assignment6/Theater.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project 6 Multithreading/assignment6/Theater$Seat.class" afterPath="$PROJECT_DIR$/out/production/Project 6 Multithreading/assignment6/Theater$Seat.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project 6 Multithreading/assignment6/Theater$Ticket.class" afterPath="$PROJECT_DIR$/out/production/Project 6 Multithreading/assignment6/Theater$Ticket.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project 6 Multithreading/assignment6/Theater.class" afterPath="$PROJECT_DIR$/out/production/Project 6 Multithreading/assignment6/Theater.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/assignment6/BookingClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -37,25 +43,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="brief_results.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment6/sample_grading_script/grading/brief_results.csv">
+      <file leaf-file-name="Theater.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment6/Theater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="112">
+              <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+              <folding>
+                <element signature="method#rowLetter#0;class#Seat#0;class#Theater#0" expanded="false" />
+                <element signature="method#toString#0;class#Seat#0;class#Theater#0" expanded="false" />
+                <element signature="class#Ticket#0;class#Theater#0" expanded="false" />
+                <element signature="method#Ticket#0;class#Ticket#0;class#Theater#0" expanded="false" />
+                <element signature="method#toString#0;class#Ticket#0;class#Theater#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Theater.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assignment6/Theater.java">
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
-              <folding>
-                <element signature="method#Seat#0;class#Seat#0;class#Theater#0" expanded="false" />
-                <element signature="class#Ticket#0;class#Theater#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="86">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,21 +79,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="score_extractor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment6/sample_grading_script/grading/helper_files/score_extractor.py">
+      <file leaf-file-name="A6SampleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment6/A6SampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A6SampleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assignment6/A6SampleTest.java">
+      <file leaf-file-name="FutureTask.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/FutureTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="87" column="44" lean-forward="false" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+            <state relative-caret-position="120">
+              <caret line="265" column="0" lean-forward="false" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/assignment6/sample_grading_script/grading/grading_project_original/src/test/java/A6SampleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="292">
-              <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+              <caret line="92" column="1" lean-forward="false" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
               <folding>
                 <element signature="e#0#2162#0" expanded="true" />
               </folding>
@@ -112,17 +131,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project 6 Multithreading.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Project 6 Multithreading.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mym</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -135,8 +152,8 @@
         <option value="$PROJECT_DIR$/assignment6/BookingClient.java" />
         <option value="$PROJECT_DIR$/assignment6/sample_grading_script/grading/grading_project_original/src/test/java/assignment6/A6SampleTest.java" />
         <option value="$PROJECT_DIR$/assignment6/sample_grading_script/grading/grading_project_original/src/test/java/A6SampleTest.java" />
-        <option value="$PROJECT_DIR$/assignment6/A6SampleTest.java" />
         <option value="$PROJECT_DIR$/assignment6/Theater.java" />
+        <option value="$PROJECT_DIR$/assignment6/A6SampleTest.java" />
       </list>
     </option>
   </component>
@@ -145,6 +162,7 @@
     <option name="width" value="654" />
     <option name="height" value="687" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -208,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.A6SampleTest.testnum2string">
+  <component name="RunManager" selected="JUnit.A6SampleTest.testBestSeatEmpty">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -372,8 +390,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.A6SampleTest.testnum2string" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.A6SampleTest.testBestSeatEmpty" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.A6SampleTest.testBestSeatEmpty" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.A6SampleTest.testnum2string" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.A6SampleTest" />
       </list>
     </recent_temporary>
@@ -400,40 +418,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 00h 33m 15s.xml">
+    <history-entry file="A6SampleTest_testBestSeatEmpty - 2018.04.14 at 13h 27m 05s.xml">
+      <configuration name="A6SampleTest.testBestSeatEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A6SampleTest_testBestSeatEmpty - 2018.04.14 at 13h 28m 41s.xml">
+      <configuration name="A6SampleTest.testBestSeatEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A6SampleTest_testBestSeatEmpty - 2018.04.14 at 13h 28m 55s.xml">
+      <configuration name="A6SampleTest.testBestSeatEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A6SampleTest_testBestSeatEmpty - 2018.04.14 at 13h 29m 08s.xml">
+      <configuration name="A6SampleTest.testBestSeatEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A6SampleTest_testBestSeatEmpty - 2018.04.14 at 13h 29m 38s.xml">
+      <configuration name="A6SampleTest.testBestSeatEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A6SampleTest_testBestSeatEmpty - 2018.04.14 at 13h 32m 07s.xml">
+      <configuration name="A6SampleTest.testBestSeatEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A6SampleTest_testBestSeatEmpty - 2018.04.14 at 13h 32m 40s.xml">
+      <configuration name="A6SampleTest.testBestSeatEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A6SampleTest_testBestSeatEmpty - 2018.04.14 at 13h 33m 10s.xml">
+      <configuration name="A6SampleTest.testBestSeatEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 19h 37m 15s.xml">
       <configuration name="A6SampleTest.testnum2string" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 00h 33m 23s.xml">
-      <configuration name="A6SampleTest.testnum2string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 00h 33m 31s.xml">
-      <configuration name="A6SampleTest.testnum2string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 00h 33m 36s.xml">
-      <configuration name="A6SampleTest.testnum2string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 00h 33m 41s.xml">
-      <configuration name="A6SampleTest.testnum2string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 00h 33m 47s.xml">
-      <configuration name="A6SampleTest.testnum2string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 00h 33m 53s.xml">
-      <configuration name="A6SampleTest.testnum2string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 00h 34m 00s.xml">
-      <configuration name="A6SampleTest.testnum2string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 00h 34m 07s.xml">
-      <configuration name="A6SampleTest.testnum2string" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="A6SampleTest_testnum2string - 2018.04.13 at 00h 34m 44s.xml">
+    <history-entry file="A6SampleTest_testnum2string - 2018.04.14 at 13h 26m 33s.xml">
       <configuration name="A6SampleTest.testnum2string" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="633" y="0" width="654" height="687" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -441,20 +458,20 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39721254" sideWeight="0.2492163" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.48119122" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19905956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1661442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3989547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39721254" sideWeight="0.7507837" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -469,7 +486,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/assignment6/A6SampleTest.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -539,7 +564,7 @@
     <entry file="file://$PROJECT_DIR$/assignment6/sample_grading_script/grading/grading_project_original/src/test/java/A6SampleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
-          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+          <caret line="92" column="1" lean-forward="false" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
           <folding>
             <element signature="e#0#2162#0" expanded="true" />
           </folding>
@@ -556,14 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assignment6/A6SampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="87" column="44" lean-forward="false" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assignment6/sample_grading_script/grading/helper_files/sample_tests_weights.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -575,19 +592,72 @@
     <entry file="file://$PROJECT_DIR$/assignment6/BookingClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../assignment3/assignment3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="227" column="37" lean-forward="false" selection-start-line="227" selection-start-column="34" selection-end-line="227" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#11139#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/statements/FailOnTimeout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="265" column="0" lean-forward="false" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="747" column="0" lean-forward="false" selection-start-line="747" selection-start-column="0" selection-end-line="747" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment6/A6SampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment6/Theater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        <state relative-caret-position="112">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
           <folding>
-            <element signature="method#Seat#0;class#Seat#0;class#Theater#0" expanded="false" />
+            <element signature="method#rowLetter#0;class#Seat#0;class#Theater#0" expanded="false" />
+            <element signature="method#toString#0;class#Seat#0;class#Theater#0" expanded="false" />
             <element signature="class#Ticket#0;class#Theater#0" expanded="false" />
+            <element signature="method#Ticket#0;class#Ticket#0;class#Theater#0" expanded="false" />
+            <element signature="method#toString#0;class#Ticket#0;class#Theater#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
