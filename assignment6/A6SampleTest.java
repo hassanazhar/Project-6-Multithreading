@@ -31,7 +31,7 @@ public class A6SampleTest {
 	 *
 	 * @throws InterruptedException
 	 */
-	//@BeforeClass
+	@BeforeClass
 	public static void setupBeforeClass() throws InterruptedException {
 		Map<String, Integer> offices = new HashMap<String, Integer>() {{
 			put("BX1", 100);
@@ -91,6 +91,16 @@ public class A6SampleTest {
 		Theater.Ticket ticket = new Theater.Ticket(show, "BX1", st,10);
 		System.out.println(ticket.toString());
 		System.out.println(ticket.toString());
+	}
+	@Test
+	public void TheaterTestSingle(){
+		Theater t = new Theater(50,1,show);
+		Theater.Seat st = t.bestAvailableSeat();
+		System.out.println(st.toString());
+		Theater.Seat newseat = new Theater.Seat(10,1);
+		Theater.Ticket tick = t.printTicket("BX1",newseat,11);
+		System.out.println(newseat.toString());
+
 	}
 
 }

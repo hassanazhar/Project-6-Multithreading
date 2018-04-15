@@ -189,18 +189,18 @@ public class Theater {
 
 	/*
 	 * Calculates the best seat not yet reserved
-	 *
  	 * @return the best seat or null if theater is full
    */
-	public Seat bestAvailableSeat() {
-		//TODO: Implement this method
+	public synchronized Seat bestAvailableSeat() {
+		//Ticket not taken yet.
+		//just checked best available seat
+		//printTicket reserves the seat.
 		Iterator<Map.Entry<Integer, Seat>> iterator2 = theatremap.entrySet().iterator();
-
 		while(iterator2.hasNext())
 		{
 			Map.Entry<Integer, Seat> next = iterator2.next();
 			if(!next.getValue().taken){
-				next.getValue().taken=true;
+				//next.getValue().taken=true;
 				return next.getValue();
 			}
 		}
@@ -214,8 +214,28 @@ public class Theater {
    * @param seat a particular seat in the theater
    * @return a ticket or null if a box office failed to reserve the seat
    */
-	public Ticket printTicket(String boxOfficeId, Seat seat, int client) {
-		//TODO: Implement this method
+	public synchronized Ticket printTicket(String boxOfficeId, Seat seat, int client) {
+		//Dont checks seat. best available seat does that. just print ticket
+		/*if(seat!=null) {
+			Ticket tick = new Ticket(Show, boxOfficeId, seat, client);
+			translog.add(tick);
+			System.out.println(tick.toString());
+			return tick;
+		}*/
+		Iterator<Map.Entry<Integer,Seat>>it=theatremap.entrySet().iterator();
+		Map.Entry<Integer,Seat> entry;
+		while(it.hasNext()){
+			entry= it.next();
+			if(entry.getValue().toString().equals(seat.toString())){
+				if(!entry.getValue().taken){
+					entry.getValue().taken=true;//seat taken
+					Ticket tick = new Ticket(Show,boxOfficeId,seat,client);
+					translog.add(tick);
+					System.out.println(tick.toString());
+					return tick;
+				}
+			}
+		}
 		return null;
 	}
 
@@ -226,6 +246,6 @@ public class Theater {
    */
 	public List<Ticket> getTransactionLog() {
 		//TODO: Implement this method
-		return null;
+		return translog;
 	}
 }
