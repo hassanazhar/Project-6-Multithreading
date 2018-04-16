@@ -191,7 +191,7 @@ public class Theater {
 	 * Calculates the best seat not yet reserved
  	 * @return the best seat or null if theater is full
    */
-	public synchronized Seat bestAvailableSeat() {
+	public Seat bestAvailableSeat() {
 		//Ticket not taken yet.
 		//just checked best available seat
 		//printTicket reserves the seat.
@@ -214,7 +214,7 @@ public class Theater {
    * @param seat a particular seat in the theater
    * @return a ticket or null if a box office failed to reserve the seat
    */
-	public synchronized Ticket printTicket(String boxOfficeId, Seat seat, int client) {
+	public Ticket printTicket(String boxOfficeId, Seat seat, int client) {
 		//Dont checks seat. best available seat does that. just print ticket
 		/*if(seat!=null) {
 			Ticket tick = new Ticket(Show, boxOfficeId, seat, client);
@@ -222,6 +222,7 @@ public class Theater {
 			System.out.println(tick.toString());
 			return tick;
 		}*/
+
 		Iterator<Map.Entry<Integer,Seat>>it=theatremap.entrySet().iterator();
 		Map.Entry<Integer,Seat> entry;
 		while(it.hasNext()){

@@ -14,13 +14,14 @@ public class BookingClient {
         Map<String, Integer> office = new HashMap<String, Integer>();
         office.put("BX1", 15);
         office.put("BX2", 15);
-        BookingClient bc = new BookingClient(office, new Theater(10, 1, "A6 Movie"));
+        office.put("BX3",15);
+        BookingClient bc = new BookingClient(office, new Theater(5, 1, "A6 Movie"));
         bc.simulate();
     }
 
     private Map<String, Integer> office;
     private Theater theater;
-    private static int totalclients=1;
+    private static int totalclients=1; //previously static
     private boolean theaterfull=false;
 
     public BookingClient(Map<String, Integer> office, Theater theater) {
@@ -65,16 +66,30 @@ public class BookingClient {
         }
 
         @Override
-        public  void run() {
+        public  synchronized  void run() {
             for (int i = 1; i <= numcustomers; i++) {
-                Theater.Seat st = theater.bestAvailableSeat();
-                if (st != null) {
-                    //totalclients++;
-                    theater.printTicket(boxofficename, st, totalclients++);
+                    //Ask ta if this is right.
+                    //Ask why my clients not printed right.
+                    //Ask if bestseatavailable just returns the next seat in row
+                    //Ask if we need some compare function for seats.
+                    synchronized (theater){
+                        Theater.Seat st = theater.bestAvailableSeat();
+                        if (st != null) {
+                            theater.printTicket(boxofficename, st, totalclients++);
+                        }
+                        else {
+                            if(theaterfull==false) {
+                                System.out.println("Sorry, we are sold out!");
+                                theaterfull=true;
+                            }
+                            return;
+                    }
                 }
-                else {
-                    System.out.println("Sorry, we are sold out!");
-                    return;
+                try {
+                    Thread.sleep(50);
+                }
+                catch(Exception e){
+                    e.printStackTrace();
                 }
             }
         }
