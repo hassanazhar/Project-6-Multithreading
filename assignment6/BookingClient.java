@@ -10,11 +10,10 @@ public class BookingClient {
      * @param theater the theater where the show is playing
      */
     public static void main(String[] args) {
-        System.out.println("hellowworld");
         Map<String, Integer> office = new HashMap<String, Integer>();
-        office.put("BX1", 15);
-        office.put("BX2", 15);
-        office.put("BX3",15);
+        office.put("BX1", 5);
+        office.put("BX2", 1);
+        office.put("BX3",1);
         BookingClient bc = new BookingClient(office, new Theater(5, 1, "A6 Movie"));
         bc.simulate();
     }
@@ -66,7 +65,7 @@ public class BookingClient {
         }
 
         @Override
-        public  synchronized  void run() {
+        public synchronized void run() {
             for (int i = 1; i <= numcustomers; i++) {
                     //Ask ta if this is right.
                     //Ask why my clients not printed right.
@@ -84,12 +83,10 @@ public class BookingClient {
                             }
                             return;
                     }
-                }
-                try {
-                    Thread.sleep(50);
-                }
-                catch(Exception e){
-                    e.printStackTrace();
+                    try {
+                        Thread.sleep(1000);
+                    }
+                    catch(Exception e){e.printStackTrace();}
                 }
             }
         }
